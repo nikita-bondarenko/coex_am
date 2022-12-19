@@ -4,7 +4,9 @@ if (!(window.ActiveXObject) && "ActiveXObject" in window) {
 	element.classList.add("ie");
 }
 
-//layout. close psevdoselect
+
+ history.pushState({}, '',location.origin)
+
 
   let closestByClass = function (el, clazz) {
     // Traverse the DOM up with a while loop
