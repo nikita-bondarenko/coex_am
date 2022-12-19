@@ -3316,6 +3316,8 @@ a.header_a:hover {
 }
 
 @media screen and (max-width: 767px) {
+
+
     .section_contacts_flex {
         flex-direction: column;
         align-items: center
@@ -3410,9 +3412,11 @@ a.header_a:hover {
     }
 
     .container_contacts_one .footer_logo_descr {
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         font-size: 12px;
-        margin-bottom: 24px
+        margin-bottom: 24px;
     }
 
     .container_contacts_one {
